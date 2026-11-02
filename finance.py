@@ -17,6 +17,7 @@ async def main():
 		format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
 	)
 
+
 	bot_token = os.environ['BOT_TOKEN']
 	# Инициализация Бота
 	bot = Bot(token=bot_token)

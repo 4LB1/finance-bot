@@ -22,6 +22,7 @@ class DAO:
                 INSERT OR IGNORE INTO
             """)
 
+
     # sql по которому созданы таблицы
     async def db_init(self):
         if not self.pool:
